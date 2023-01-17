@@ -1,0 +1,53 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color: #eef9bf;
+}
+h1{
+    font-weight:700 ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 56px;
+    color:  #75B79E;
+    margin-top: 40px;
+    text-align: center;
+}
+.carta{
+    width: 117px;
+    height: 146px;
+    background-color: #A7E9AF; 
+    margin-right: 34px;
+    margin-top: 34px;
+    border:#99CEA8 1px solid;
+    border-radius: 5px;
+}
+.back{
+    width: 100px;
+    height: 100px;
+    margin: 24px 10px 22px 7px;
+}
+.cartas{
+    display: flex;
+    justify-content: center;
+    margin-top: 47px;
+    flex-wrap: wrap;
+    margin-left: 122px;
+   
+}
+.virada{
+    display: none;
+}
+.gif{
+    width: 100px;
+    height: 100px;
+    margin: 24px 10px 22px 7px;
+}
+.escolhida{
+    
+}
+@media( max-width:335px){
+    h1{
+        font-size: 36px;
+        color: red;
+    }
+}
