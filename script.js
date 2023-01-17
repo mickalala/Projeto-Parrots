@@ -34,14 +34,13 @@ function conta(){
    contador++;
   console.log(contador)
    if(contador===1){
-   
+   return
    }else if(contador===2 && carta1===carta2){
 
      console.log('igual')
      contador=0;
    }else{
-      carta1='naoigual';
-      carta2='diferent';
+      
       desvirada();
       contador=0;
    }
